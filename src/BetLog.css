@@ -1,0 +1,55 @@
+.bet-log {
+    width: 264px;
+    height: 416px;
+}
+
+.bet-log__heading {
+    margin-bottom: 8px;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.bet-log__list {
+    list-style: none;
+}
+
+.bet-log__bet {
+    border-bottom: 1px solid #2A414C;
+}
+
+.bet-log__id-container {
+    
+}
+
+
+.bet-log__id {
+
+}
+
+.bet-log__time {
+
+}
+
+.bet-log__info-container {
+
+}
+
+.bet-log__name {
+
+}
+
+.bet-log__sum-paid {
+
+}
+
+.bet-log__info-container {
+
+}
+
+.bet-log__status-icon {
+
+}
+
+.bet-log__coef {
+
+}
