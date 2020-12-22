@@ -1,0 +1,78 @@
+.bet-log__bet {
+    border-bottom: 1px solid #2A414C;
+    display: flex;
+    flex-direction: column;
+    margin: 8px 0;
+}
+
+.bet-log__bet-item {
+    height: 48px;
+}
+
+.bet-log__bet-item_win {
+    color: #94E107;
+}
+
+.bet-log__name-container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    line-height: 1.3;
+}
+
+.bet-log__id {
+    margin: 0;
+}
+
+.bet-log__time {
+    margin: 0;
+}
+
+.bet-log__info-container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    line-height: 1.3;
+}
+
+.bet-log__name {
+    text-align: left;
+    margin: 0 0 0 4px;
+    font-weight: 700;
+}
+
+.bet-log__sum-paid {
+    margin: 0;
+}
+
+.bet-log__info-container {
+    margin: 0;
+}
+
+.bet-log__status-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.bet-log__coef {
+    margin: 0;
+}
+
+.bet-log__dropdown {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.bet-log__dropdown-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+}
+
+.bet-log__name_drop {
+    font-weight: 400;
+}

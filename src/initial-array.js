@@ -8,7 +8,7 @@ export const betsArr = [
     {
         id: '00000',
         time: '18:53:36',
-        name: 'Offside or Free Kick or Goal Kick',
+        name: 'Offside or Free Kick or Goal',
         // {
             // off: 'Offside',
             // kick: 'Kick',
@@ -18,7 +18,7 @@ export const betsArr = [
         // },
         sum: '100$',
         paid: '2.200$',
-        statusIcon: {okStatus},
+        statusIcon: okStatus,
         coef: 2.7,
         events: [
             {
@@ -47,7 +47,8 @@ export const betsArr = [
         // },
         sum: '100$',
         paid: '2.200$',
-        statusIcon: {clockStatus},
+        statusIcon: clockStatus,
+        icon: 'fas fa-clock',
         coef: 2.7,
         events: [
             {
@@ -75,8 +76,9 @@ export const betsArr = [
         // },
         sum: '100$',
         paid: '2.200$',
-        statusIcon: {winStatus},
+        statusIcon: winStatus,
         coef: 2.7,
+        isWinner: true,
         events: [
             {
                 event: "Bet Received",
@@ -109,7 +111,7 @@ export const betsArr = [
         // },
         sum: '100$',
         paid: '2.200$',
-        statusIcon: {backStatus},
+        statusIcon: backStatus,
         coef: 2.7,
         events: [
             {
@@ -137,7 +139,7 @@ export const betsArr = [
         // },
         sum: '100$',
         paid: '2.200$',
-        statusIcon: {minusStatus},
+        statusIcon: minusStatus,
         coef: 2.7,
         events: [
             {
@@ -165,7 +167,7 @@ export const betsArr = [
         // },
         sum: '100$',
         paid: '2.200$',
-        statusIcon: {minusStatus},
+        statusIcon: minusStatus,
         coef: 2.7,
         events: [
             {
@@ -193,7 +195,272 @@ export const betsArr = [
         // },
         sum: '100$',
         paid: '2.200$',
-        statusIcon: {minusStatus},
+        statusIcon: minusStatus,
+        coef: 2.7,
+        events: [
+            {
+                event: "Bet Received",
+                time: "18:36",
+                sum: "-100$"
+            },
+            {
+                event: "Bet Accepted",
+                time: "18:36",
+                sum: "0"
+            },
+        ]
+    },
+    {
+        id: '00007',
+        time: '18:53:36',
+        name: 'Goal',
+        // {
+        //     off: 'Offside',
+        //     kick: 'Kick',
+        //     goal: 'Goal',
+        //     free: 'FreeKick',
+        //     corner: 'CornerKick'
+        // },
+        sum: '100$',
+        paid: '2.200$',
+        statusIcon: winStatus,
+        coef: 2.7,
+        isWinner: true,
+        events: [
+            {
+                event: "Bet Received",
+                time: "18:36",
+                sum: "-100$"
+            },
+            {
+                event: "Bet Accepted",
+                time: "18:36",
+                sum: "0"
+            },
+            {
+                event: "Bet Win",
+                time: "18:36",
+                sum: "+2 500$"
+            },
+
+        ]
+    },
+    {
+        id: '00008',
+        time: '18:53:36',
+        name: 'Offside',
+        // {
+        //     off: 'Offside',
+        //     kick: 'Kick',
+        //     goal: 'Goal',
+        //     free: 'FreeKick',
+        //     corner: 'CornerKick'
+        // },
+        sum: '100$',
+        paid: '2.200$',
+        statusIcon: backStatus,
+        coef: 2.7,
+        events: [
+            {
+                event: "Bet Received",
+                time: "18:36",
+                sum: "-100$"
+            },
+            {
+                event: "Bet Accepted",
+                time: "18:36",
+                sum: "0"
+            },
+        ]
+    },
+    {
+        id: '00009',
+        time: '18:53:36',
+        name: 'Free Kick or Corner kick',
+        // {
+        //     off: 'Offside',
+        //     kick: 'Kick',
+        //     goal: 'Goal',
+        //     free: 'FreeKick',
+        //     corner: 'CornerKick'
+        // },
+        sum: '100$',
+        paid: '2.200$',
+        statusIcon: minusStatus,
+        coef: 2.7,
+        events: [
+            {
+                event: "Bet Received",
+                time: "18:36",
+                sum: "-100$"
+            },
+            {
+                event: "Bet Accepted",
+                time: "18:36",
+                sum: "0"
+            },
+        ]
+    },
+    {
+        id: '00010',
+        time: '18:53:36',
+        name: 'Free Kick or Corner kick',
+        // {
+        //     off: 'Offside',
+        //     kick: 'Kick',
+        //     goal: 'Goal',
+        //     free: 'FreeKick',
+        //     corner: 'CornerKick'
+        // },
+        sum: '100$',
+        paid: '2.200$',
+        statusIcon: minusStatus,
+        coef: 2.7,
+        events: [
+            {
+                event: "Bet Received",
+                time: "18:36",
+                sum: "-100$"
+            },
+            {
+                event: "Bet Accepted",
+                time: "18:36",
+                sum: "0"
+            },
+        ]
+    },
+    {
+        id: '00011',
+        time: '18:53:36',
+        name: 'Free Kick or Corner kick',
+        //  {
+        //     off: 'Offside',
+        //     kick: 'Kick',
+        //     goal: 'Goal',
+        //     free: 'FreeKick',
+        //     corner: 'CornerKick'
+        // },
+        sum: '100$',
+        paid: '2.200$',
+        statusIcon: minusStatus,
+        coef: 2.7,
+        events: [
+            {
+                event: "Bet Received",
+                time: "18:36",
+                sum: "-100$"
+            },
+            {
+                event: "Bet Accepted",
+                time: "18:36",
+                sum: "0"
+            },
+        ]
+    },
+    {
+        id: '00012',
+        time: '18:53:36',
+        name: 'Goal',
+        // {
+        //     off: 'Offside',
+        //     kick: 'Kick',
+        //     goal: 'Goal',
+        //     free: 'FreeKick',
+        //     corner: 'CornerKick'
+        // },
+        sum: '100$',
+        paid: '2.200$',
+        statusIcon: winStatus,
+        coef: 2.7,
+        events: [
+            {
+                event: "Bet Received",
+                time: "18:36",
+                sum: "-100$"
+            },
+            {
+                event: "Bet Accepted",
+                time: "18:36",
+                sum: "0"
+            },
+            {
+                event: "Bet Win",
+                time: "18:36",
+                sum: "+2 500$"
+            },
+
+        ]
+    },
+    {
+        id: '00013',
+        time: '18:53:36',
+        name: 'Offside',
+        // {
+        //     off: 'Offside',
+        //     kick: 'Kick',
+        //     goal: 'Goal',
+        //     free: 'FreeKick',
+        //     corner: 'CornerKick'
+        // },
+        sum: '100$',
+        paid: '2.200$',
+        statusIcon: backStatus,
+        coef: 2.7,
+        events: [
+            {
+                event: "Bet Received",
+                time: "18:36",
+                sum: "-100$"
+            },
+            {
+                event: "Bet Accepted",
+                time: "18:36",
+                sum: "0"
+            },
+        ]
+    },
+    {
+        id: '00014',
+        time: '18:53:36',
+        name: 'Free Kick or Corner kick',
+        // {
+        //     off: 'Offside',
+        //     kick: 'Kick',
+        //     goal: 'Goal',
+        //     free: 'FreeKick',
+        //     corner: 'CornerKick'
+        // },
+        sum: '100$',
+        paid: '2.200$',
+        statusIcon: minusStatus,
+        coef: 2.7,
+        events: [
+            {
+                event: "Bet Received",
+                time: "18:36",
+                sum: "-100$"
+            },
+            {
+                event: "Bet Accepted",
+                time: "18:36",
+                sum: "0"
+            },
+        ]
+    },
+    {
+        id: '00015',
+        time: '18:53:36',
+        name: 'Free Kick or Corner kick',
+        // {
+        //     off: 'Offside',
+        //     kick: 'Kick',
+        //     goal: 'Goal',
+        //     free: 'FreeKick',
+        //     corner: 'CornerKick'
+        // },
+        sum: '100$',
+        paid: '2.200$',
+        statusIcon: minusStatus,
         coef: 2.7,
         events: [
             {

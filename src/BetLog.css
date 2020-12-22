@@ -1,55 +1,40 @@
 .bet-log {
     width: 264px;
     height: 416px;
+    overflow: hidden;
 }
 
 .bet-log__heading {
     margin-bottom: 8px;
     font-size: 24px;
-    line-height: 32px;
+    line-height: 1.3;
 }
 
 .bet-log__list {
     list-style: none;
+    padding-left: 0;
+    margin-right: 10px;
 }
 
-.bet-log__bet {
-    border-bottom: 1px solid #2A414C;
-}
-
-.bet-log__id-container {
-    
-}
-
-
-.bet-log__id {
-
-}
-
-.bet-log__time {
-
-}
-
-.bet-log__info-container {
-
-}
-
-.bet-log__name {
-
-}
-
-.bet-log__sum-paid {
-
-}
-
-.bet-log__info-container {
-
-}
-
-.bet-log__status-icon {
-
-}
-
-.bet-log__coef {
-
-}
+.bet-log__scroll-box {
+    mask-image: -webkit-linear-gradient(
+    bottom,
+    rgba(25, 42, 51, 0) 0%,
+    #192A33 58px);
+    height: 100%;
+  }
+  
+  .bet-log__scroll-thumb {
+    border-radius: 50px;
+    background-color: #364D59;
+    width: 4px;
+    height: 96px;
+  }
+  
+  .bet-log__scroll-box-track {
+    right: 2px;
+    bottom: 6px;
+    top: 2px;
+    border-radius: 4px;
+    background-color: rgba( 243, 243, 243, 0.1);
+  }
