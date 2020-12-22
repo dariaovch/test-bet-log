@@ -1,4 +1,6 @@
-#Bet Log
+# Bet Log
+
+Ссылка на просмотр: https://dariaovch.github.io/test-bet-log/index.html
 
 ## Стэк
 
