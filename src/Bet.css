@@ -15,30 +15,48 @@
 
 .bet-log__name-container {
     display: flex;
-    justify-content: space-between;
     font-size: 12px;
     line-height: 1.3;
 }
 
 .bet-log__id {
-    margin: 0;
+    margin: 0 12px 0 0;
 }
 
-.bet-log__time {
-    margin: 0;
-}
-
-.bet-log__info-container {
+.bet-log__bet-container{
+    width: 192px;
     display: flex;
     justify-content: space-between;
-    font-size: 12px;
-    line-height: 1.3;
 }
 
 .bet-log__name {
     text-align: left;
-    margin: 0 0 0 4px;
+    margin: 0;
     font-weight: 700;
+}
+
+.bet-log__info-container {
+    display: flex;
+    color: #738C99;
+    font-size: 12px;
+    line-height: 1.3;
+}
+
+.bet-log__time {
+    margin: 0 12px 0 0;
+}
+.bet-log__amount-container{
+    width: 192px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bet-log__sum-container {
+    display: flex;
+    justify-content: space-between;
+}
+.bet-log__sum-bet {
+    margin: 0 8px 0 0;
 }
 
 .bet-log__sum-paid {
@@ -56,6 +74,7 @@
 
 .bet-log__coef {
     margin: 0;
+    height: 16px;
 }
 
 .bet-log__dropdown {
@@ -75,4 +94,28 @@
 
 .bet-log__name_drop {
     font-weight: 400;
+    width: 96px;
+    color: #B8CCD9;
 }
+
+.bet-log__time_drop {
+    margin: 0 19px 0 0;
+    color: #738C99;
+}
+
+.bet-log__sum-paid_drop {
+    width: 44px;
+    text-align: right;
+    color: #B8CCD9;
+}
+
+.bet-log__coef_drop {
+    width: 40px;
+    text-align: right;
+    color: #B8CCD9;
+}
+
+.bet-log__info-container_win {
+    color: #94E107;
+}
+

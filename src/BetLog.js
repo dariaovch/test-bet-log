@@ -1,7 +1,7 @@
 import React from 'react';
 import './BetLog.css';
 import Bet from './Bet.js';
-import { betsArr } from './initial-array.js';
+import { betsArr } from './db/initial-array.js';
 import { Scrollbars } from 'react-custom-scrollbars';
 
 function BetLog() {
@@ -28,38 +28,17 @@ function BetLog() {
     //   const renderTrack = ({ style, ...props }) => {
     //     return (
     //       <div
-    //         className='bet-log__scroll-box-track'
+    //         className='bet-log__scroll-track'
     //         style={{ ...style, width: 3 }}
     //         {...props} />
     //     );
     //   };
-    
-    //   const renderTrackHorizontal = ({ style, ...props }) => {
-    //     return (
-    //       <div
-    //         style={{ display: 'none' }}
-    //         {...props}
-    //       />
-    //     );
-    //   };
-
-    // const renderThumb = ({ style, ...props }) => {
-    //     const thumbStyle = {
-    //       borderRadius: 5,
-    //       backgroundColor: '#364D59',
-    //       width: 4,
-    //       height: 96,
-    //     };
-    //     return <div style={{ ...style, ...thumbStyle }} {...props} />;
-    //   };
       
       const CustomScrollbars = props => (
         <Scrollbars
-        //   renderThumbHorizontal={renderThumb}
           renderThumbVertical={renderThumb}
           renderView={renderView}
-        // renderThumb={renderThumb}
-        // renderTrack={renderTrack}
+        //   renderTrack={renderTrack}
           {...props}
         />);
 

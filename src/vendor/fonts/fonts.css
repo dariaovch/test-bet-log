@@ -9,3 +9,10 @@
     src: url(./AlegreyaSans-Regular.ttf) format('ttf');
     font-weight: 700;
 }
+/* 
+@font-face {
+    font-family: 'Font Awesome Solid';
+    src: url(./fa-solid-900.woff2) format('woff2'),
+         url(./fa-solid-900.woff) format('woff');
+    font-weight: 900;
+} */

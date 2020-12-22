@@ -1,3 +1,30 @@
+#Bet Log
+
+## Стэк
+
+* HTML;
+* CSS;
+* React;
+
+## Реализация
+
+* Выпадающее меню с анимацией;
+* Парс данных из массива в список;
+* Кастомный скролл с блюром;
+
+## Доработки
+
+* Заменить картинки иконок на иконочный шрифт Awesome (сейчас картинки выглядят плохо и иих нельзя покрасить в зеленый)ж
+* Реализовать отдельный цвет шрифта на каждое название ставки;
+
+## Инструкция по развертыванию
+
+* Клонирование репозитория: `git clone https://github.com/dariaovch/test-bet-log.git`
+* Установка зависимостей: `npm install`
+* Запуск develop-сборки: `npm start`
+* Запуск production-сборки: `npm run build`
+* Выложить проект на сервер: `npm run deploy`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
