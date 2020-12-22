@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/test-bet-log/static/css/main.a7e6d05c.chunk.css",
+    "main.js": "/test-bet-log/static/js/main.a081a793.chunk.js",
+    "main.js.map": "/test-bet-log/static/js/main.a081a793.chunk.js.map",
+    "runtime-main.js": "/test-bet-log/static/js/runtime-main.a9e016e4.js",
+    "runtime-main.js.map": "/test-bet-log/static/js/runtime-main.a9e016e4.js.map",
+    "static/js/2.2cdbb836.chunk.js": "/test-bet-log/static/js/2.2cdbb836.chunk.js",
+    "static/js/2.2cdbb836.chunk.js.map": "/test-bet-log/static/js/2.2cdbb836.chunk.js.map",
+    "static/js/3.9f261be3.chunk.js": "/test-bet-log/static/js/3.9f261be3.chunk.js",
+    "static/js/3.9f261be3.chunk.js.map": "/test-bet-log/static/js/3.9f261be3.chunk.js.map",
+    "index.html": "/test-bet-log/index.html",
+    "static/css/main.a7e6d05c.chunk.css.map": "/test-bet-log/static/css/main.a7e6d05c.chunk.css.map",
+    "static/js/2.2cdbb836.chunk.js.LICENSE.txt": "/test-bet-log/static/js/2.2cdbb836.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a9e016e4.js",
+    "static/js/2.2cdbb836.chunk.js",
+    "static/css/main.a7e6d05c.chunk.css",
+    "static/js/main.a081a793.chunk.js"
+  ]
+}
